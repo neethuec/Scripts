@@ -1,0 +1,5 @@
+#type in address bar of the browser(Microsoft Edge)
+#the target url contains '?anytext='
+#After '=' add the following command
+<script>alert(+escape(document.cookie));</script>
+#If the website is vulnerable, then you get a popup box with the cookie after loading the webpage.
